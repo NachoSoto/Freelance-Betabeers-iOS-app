@@ -505,7 +505,7 @@
 				GCC_PREFIX_HEADER = "Freelance/Freelance-Prefix.pch";
 				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = "Freelance/Freelance-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				USER_HEADER_SEARCH_PATHS = "\"$(OBJROOT)/UninstalledProducts/include\" \"$(TARGET_BUILD_DIR)/usr/local/lib/include\"";
@@ -521,7 +521,7 @@
 				GCC_PREFIX_HEADER = "Freelance/Freelance-Prefix.pch";
 				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = "Freelance/Freelance-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				USER_HEADER_SEARCH_PATHS = "\"$(OBJROOT)/UninstalledProducts/include\" \"$(TARGET_BUILD_DIR)/usr/local/lib/include\"";
