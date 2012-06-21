@@ -1,9 +1,7 @@
 Freelance Betabeers iOS
 ============================
 
-Proposito de la app
--------------------
-Hacer una app para facilitar la vida a desarrolladores web freelance.
+App para facilitar la vida a desarrolladores web freelance.
 
 TO-DO 1.1
 ----------
