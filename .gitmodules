@@ -1,0 +1,6 @@
+[submodule "Freelance/Dependencies/SDWebImage"]
+	path = Freelance/Dependencies/SDWebImage
+	url = git://github.com/rs/SDWebImage.git
+[submodule "Freelance/Dependencies/SVProgressHUD"]
+	path = Freelance/Dependencies/SVProgressHUD
+	url = git://github.com/samvermette/SVProgressHUD.git

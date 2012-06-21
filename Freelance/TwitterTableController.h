@@ -9,8 +9,7 @@
 #import <UIKit/UIKit.h>
 #import <Twitter/Twitter.h>
 
-#import <SDWebImage/UIImageView+WebCache.h>
-//#import "UIImageView+WebCache.h"
+#import "UIImageView+WebCache.h"
 
 #import "SVProgressHUD.h"
 
