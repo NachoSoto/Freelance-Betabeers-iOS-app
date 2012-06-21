@@ -82,28 +82,28 @@
 
             
             
-            NSData *tweets = [NSData dataWithContentsOfURL:[NSURL URLWithString:url]];
-            NSInputStream *twitterStream = [[NSInputStream alloc] initWithData:tweets];
-            [twitterStream open];
+            NSData *items = [NSData dataWithContentsOfURL:[NSURL URLWithString:url]];
+            NSInputStream *stream = [[NSInputStream alloc] initWithData:items];
+            [stream open];
             
-            if (twitterStream) {
+            if (stream) {
                 
                 
             
                 NSError *parseError = nil;
-                id jsonObject = [NSJSONSerialization JSONObjectWithStream:twitterStream options:NSJSONReadingAllowFragments error:&parseError];
+                id jsonObject = [NSJSONSerialization JSONObjectWithStream:stream options:NSJSONReadingAllowFragments error:&parseError];
                 
                 
                 NSArray *items = [[jsonObject objectForKey:@"response"] objectForKey:@"jobs"];
-                for (NSDictionary *tweet in items) {
+                for (NSDictionary *item in items) {
                     
                     
                     
-                    NSLog(@"%@",[tweet objectForKey:@"title"]);
+                    NSLog(@"%@",[item objectForKey:@"title"]);
                     
                     
                     
-                    [arrayC addObject:tweet];
+                    [arrayC addObject:item];
 
                     
                 }
