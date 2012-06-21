@@ -5,6 +5,13 @@ Proposito de la app
 -------------------
 Hacer una app para facilitar la vida a desarrolladores web freelance.
 
+TO-DO 1.1
+----------
+* versión minima ios 5.0 -> 5.1 (ok)
+* minimo precio hora 10€ -> 5€ (ok)
+* tabla tweets no se ajusta
+* mejorar diseño (icono, colores interfaz)
+
 Opensource
 ----------
 * Estoy aprendiendo objective-c, seguro que muchas cosas se podrían hacer mucho mejor por lo que os ánimo a colaborar haciendo pullrequests tanto para mejorar tanto el código como el diseño.
