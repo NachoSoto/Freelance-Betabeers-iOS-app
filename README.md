@@ -5,8 +5,8 @@ App para facilitar la vida a desarrolladores web freelance.
 
 TO-DO 1.1
 ----------
-* versión minima ios 5.0 -> 5.1 (ok)
-* minimo precio hora 10€ -> 5€ (ok)
+* versión minima ios 5.1 a 5.0 (ok)
+* minimo precio hora 10€ a 5€ (ok)
 * tabla tweets no se ajusta
 * mejorar diseño (icono, colores interfaz)
 * elegir divisa
