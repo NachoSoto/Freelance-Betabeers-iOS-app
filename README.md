@@ -11,6 +11,8 @@ TO-DO 1.1
 * minimo precio hora 10€ -> 5€ (ok)
 * tabla tweets no se ajusta
 * mejorar diseño (icono, colores interfaz)
+* elegir divisa
+* limpiar código duplicado entre controladores (setBackground, connectedToNetwork)
 
 Opensource
 ----------
